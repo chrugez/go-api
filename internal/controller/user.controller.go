@@ -1,9 +1,8 @@
 package controller
 
 import (
-	"net/http"
-
 	"github.com/chrugez/go-api/internal/service"
+	"github.com/chrugez/go-api/pkg/response"
 	"github.com/gin-gonic/gin"
 )
 
@@ -25,8 +24,11 @@ func (uc *UserController) GetUserByID(c *gin.Context) {
 	// name := c.Param("name")
 	// name := c.DefaultQuery("name", "chrugez")
 	// uid := c.Query("uid")
-	c.JSON(http.StatusOK, gin.H{
-		"message": uc.userService.GetInfoUser(),
-		"users":   []string{"user1", "user2", "user3"},
-	})
+	// c.JSON(http.StatusOK, response.ResponseData{
+	// 	Code: 20001,
+	// 	Message: "success",
+	// 	Data: []string{"user1", "user2"},
+	// })
+	// response.SuccessResponse(c, 20001, []string{"user1", "user2", "user3"})
+	response.ErrorResponse(c, 20003, "No need!")
 }
