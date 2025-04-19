@@ -3,12 +3,40 @@ package routers
 import (
 	// "net/http"
 
+	"fmt"
+
 	c "github.com/chrugez/go-api/internal/controller"
+	"github.com/chrugez/go-api/internal/middlewares"
 	"github.com/gin-gonic/gin"
 )
 
+func AA () gin.HandlerFunc {
+	return func(c *gin.Context) {
+		fmt.Println("Before -> AA")
+		c.Next()
+		fmt.Println("After -> AA")
+	}
+}
+
+func BB () gin.HandlerFunc {
+	return func(c *gin.Context) {
+		fmt.Println("Before -> BB")
+		c.Next()
+		fmt.Println("After -> BB")
+	}
+}
+
+func CC (c *gin.Context)  {
+	fmt.Println("Before -> CC")
+	c.Next()
+	fmt.Println("After -> CC")
+}
+
 func NewRouter() *gin.Engine{
 	r := gin.Default()
+	//use the middleware
+	r.Use(middlewares.AuthenMiddleware(), AA(), BB(), CC)
+
   v1 := r.Group("/v1/2025")
   {
 	v1.GET("/ping/:name", c.NewPongController().Pong)
