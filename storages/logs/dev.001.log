@@ -19,3 +19,11 @@
 {"level":"INFO","time":"2025-04-25T23:51:49.218+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
 {"level":"INFO","time":"2025-04-25T23:51:49.226+0700","caller":"initialize/mysql.go:30","msg":"Initializing MySQL Successfully"}
 {"level":"INFO","time":"2025-04-25T23:51:49.437+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-04-26T23:28:45.742+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"ERROR","time":"2025-04-26T23:28:45.745+0700","caller":"initialize/mysql.go:16","msg":"InitMysql initialzation error","error":"dial tcp 127.0.0.1:3307: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"github.com/chrugez/go-api/internal/initialize.checkErrorPanic\n\tD:/Go/go-api/internal/initialize/mysql.go:16\ngithub.com/chrugez/go-api/internal/initialize.InitMySql\n\tD:/Go/go-api/internal/initialize/mysql.go:29\ngithub.com/chrugez/go-api/internal/initialize.Run\n\tD:/Go/go-api/internal/initialize/run.go:17\nmain.main\n\tD:/Go/go-api/cmd/server/main.go:14\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:283"}
+{"level":"INFO","time":"2025-04-26T23:30:01.110+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-04-26T23:30:01.131+0700","caller":"initialize/mysql.go:30","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-04-26T23:30:01.340+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-04-26T23:30:30.876+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-04-26T23:30:30.882+0700","caller":"initialize/mysql.go:30","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-04-26T23:30:31.091+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
