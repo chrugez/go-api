@@ -21,12 +21,12 @@ import (
 
 //INTERFACE_VERSION
 
-type IUserService struct {
+type IUserService interface {
 	Register(email string, purpose string) int
 }
 
 type userService struct {
-	userRepo *repo.IUserRepository
+	userRepo repo.IUserRepository
 	//...
 }
 
@@ -34,7 +34,7 @@ func NewUserService(
 	userRepo repo.IUserRepository,
 ) IUserService {
 	return &userService{
-		userRepo: &userRepo,
+		userRepo: userRepo,
 	}
 }
 
