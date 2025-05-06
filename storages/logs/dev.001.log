@@ -27,3 +27,17 @@
 {"level":"INFO","time":"2025-04-26T23:30:30.876+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
 {"level":"INFO","time":"2025-04-26T23:30:30.882+0700","caller":"initialize/mysql.go:30","msg":"Initializing MySQL Successfully"}
 {"level":"INFO","time":"2025-04-26T23:30:31.091+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-05-06T23:28:42.031+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-05-06T23:28:42.054+0700","caller":"initialize/mysql.go:31","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-05-06T23:33:25.550+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-05-06T23:33:25.556+0700","caller":"initialize/mysql.go:31","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-05-06T23:33:25.706+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-05-06T23:37:23.355+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-05-06T23:37:23.362+0700","caller":"initialize/mysql.go:31","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-05-06T23:37:23.545+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-05-06T23:38:38.095+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-05-06T23:38:38.101+0700","caller":"initialize/mysql.go:31","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-05-06T23:38:38.275+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
+{"level":"INFO","time":"2025-05-06T23:41:09.479+0700","caller":"initialize/run.go:16","msg":"Config Log ok!","Ok":"success"}
+{"level":"INFO","time":"2025-05-06T23:41:09.488+0700","caller":"initialize/mysql.go:31","msg":"Initializing MySQL Successfully"}
+{"level":"INFO","time":"2025-05-06T23:41:09.671+0700","caller":"initialize/redis.go:46","msg":"value score is:","score":"100"}
